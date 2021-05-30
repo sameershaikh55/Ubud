@@ -77,6 +77,30 @@ img {
 	border-radius: 4px;
 }
 
+.themeBtn2 {
+	padding: 8px 24px;
+	color: $themeColor;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: initial;
+	white-space: nowrap;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	background-color: transparent;
+	box-shadow: inset 0 0 0 1px $themeColor;
+	transition: 0.5s;
+
+	&:hover {
+		color: #fff;
+		background-color: $themeColor;
+	}
+}
+.fontWeight {
+	font-weight: 700;
+}
 .pointer {
 	cursor: pointer;
 }
@@ -143,6 +167,11 @@ img {
 		font-size: 16px;
 		line-height: 24px;
 	}
+	@media screen and (max-width: 575px) {
+		button {
+			width: 100%;
+		}
+	}
 }
 // HOME BANNER CONTAINER END
 
@@ -187,3 +216,63 @@ img {
 }
 
 // FEATURED PROJECTS CONTAINER END
+
+// NEWSLETTER CONTAINER START
+.newsletterContainer {
+	padding: 6rem;
+	border-radius: 4px;
+	background-color: #f6f6f6;
+
+	.innerContainer {
+		max-width: 540px;
+		margin: auto;
+
+		h3 {
+			font-size: 1.8rem;
+			line-height: 32px;
+		}
+	}
+
+	input {
+		padding: 12px 20px;
+		border: 1px solid #ececec;
+		border-radius: 4px;
+		color: #181818;
+		background-color: #ffffff;
+		font-size: 1rem;
+		line-height: 24px;
+	}
+
+	.c-subscribe__icon {
+		position: absolute;
+		top: -141px;
+		right: -121px;
+	}
+
+	.c-subscribe__icon svg {
+		fill: #fff;
+	}
+}
+// NEWSLETTER CONTAINER END
+
+// FOOTER CONTAINER START
+.footer_container {
+	ul {
+		margin-bottom: 0.3rem;
+	}
+
+	a {
+		font-size: 0.8rem;
+		color: #687385;
+
+		&:hover {
+			color: $themeColor;
+		}
+	}
+
+	.footerLine {
+		font-size: 0.8rem;
+		color: #687385;
+	}
+}
+// FOOTER CONTAINER END
