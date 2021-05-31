@@ -1,327 +1,327 @@
 * {
-  padding: 0%;
-  margin: 0%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+	padding: 0%;
+	margin: 0%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
 }
 
 html {
-  width: 100%;
-  font-size: 100%;
+	width: 100%;
+	font-size: 100%;
 }
 
 @media screen and (max-width: 992px) {
-  html {
-    font-size: 98%;
-  }
+	html {
+		font-size: 98%;
+	}
 }
 
 @media screen and (max-width: 668px) {
-  html {
-    font-size: 96%;
-  }
+	html {
+		font-size: 96%;
+	}
 }
 
 @media screen and (max-width: 575px) {
-  html {
-    font-size: 94%;
-  }
+	html {
+		font-size: 94%;
+	}
 }
 
 @media screen and (max-width: 475px) {
-  html {
-    font-size: 92%;
-  }
+	html {
+		font-size: 92%;
+	}
 }
 
 @media screen and (max-width: 380px) {
-  html {
-    font-size: 90%;
-  }
+	html {
+		font-size: 90%;
+	}
 }
 
 @media screen and (max-width: 280px) {
-  html {
-    font-size: 88%;
-  }
+	html {
+		font-size: 88%;
+	}
 }
 
 .page_container {
-  max-width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
+	max-width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .themeText {
-  color: #c5322e;
+	color: #c5322e;
 }
 
 img {
-  height: auto;
-  display: block;
-  max-width: 100%;
-  font-style: italic;
-  width: 100%;
+	height: auto;
+	display: block;
+	max-width: 100%;
+	font-style: italic;
+	width: 100%;
 }
 
 .themeBtn {
-  padding: 12px 24px;
-  color: #fff;
-  background-color: #c5322e;
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 600;
-  text-align: center;
-  text-transform: initial;
-  white-space: nowrap;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
+	padding: 12px 24px;
+	color: #fff;
+	background-color: #c5322e;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: initial;
+	white-space: nowrap;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
 }
 
 .themeBtn2 {
-  padding: 8px 24px;
-  color: #c5322e;
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 600;
-  text-align: center;
-  text-transform: initial;
-  white-space: nowrap;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  background-color: transparent;
-  -webkit-box-shadow: inset 0 0 0 1px #c5322e;
-          box-shadow: inset 0 0 0 1px #c5322e;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+	padding: 10px 24px;
+	color: #c5322e;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: initial;
+	white-space: nowrap;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	background-color: transparent;
+	-webkit-box-shadow: inset 0 0 0 1px #c5322e;
+	box-shadow: inset 0 0 0 1px #c5322e;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
 }
 
 .themeBtn2:hover {
-  color: #fff;
-  background-color: #c5322e;
+	color: #fff;
+	background-color: #c5322e;
 }
 
 .fontWeight {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .pointer {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .header_container {
-  padding: 2.4rem 0rem;
+	padding: 2.4rem 0rem;
 }
 
 .header_container h5 {
-  font-weight: 700;
-  letter-spacing: 1.1px;
-  font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 1.1px;
+	font-size: 1.5rem;
 }
 
 .header_container ul li {
-  margin: 0rem 0.8rem;
-  position: relative;
-  font-weight: 500;
+	margin: 0rem 0.8rem;
+	position: relative;
+	font-weight: 500;
 }
 
 .header_container ul li a {
-  color: #000;
+	color: #000;
 }
 
 .header_container ul li .themeText {
-  color: #c5322e;
+	color: #c5322e;
 }
 
 .header_container ul li::before {
-  content: "";
-  background: #000;
-  position: absolute;
-  z-index: -1;
-  height: 0%;
-  width: 100%;
-  bottom: 0%;
-  left: 0%;
+	content: "";
+	background: #000;
+	position: absolute;
+	z-index: -1;
+	height: 0%;
+	width: 100%;
+	bottom: 0%;
+	left: 0%;
 }
 
 .header_container ul li:hover::before {
-  height: 10%;
+	height: 10%;
 }
 
 .header_container .icons li:last-child {
-  margin-right: 0rem;
+	margin-right: 0rem;
 }
 
 .header_container li.activeNav::before {
-  content: "";
-  background: #000;
-  position: absolute;
-  z-index: -1;
-  height: 10%;
-  width: 100%;
-  bottom: 0%;
-  left: 0%;
+	content: "";
+	background: #000;
+	position: absolute;
+	z-index: -1;
+	height: 10%;
+	width: 100%;
+	bottom: 0%;
+	left: 0%;
 }
 
 @media screen and (max-width: 575px) {
-  .header_container {
-    padding: 1.4rem 0rem 1rem 0rem;
-  }
+	.header_container {
+		padding: 1.4rem 0rem 1rem 0rem;
+	}
 }
 
 .banner_right a {
-  color: #000 !important;
-  border-bottom: 1px solid #000;
+	color: #000 !important;
+	border-bottom: 1px solid #000;
 }
 
 .banner_right a:hover {
-  color: #c5322e !important;
+	color: #c5322e !important;
 }
 
 .banner_right p {
-  font-size: 1.2rem;
-  line-height: 32px;
+	font-size: 1.2rem;
+	line-height: 32px;
 }
 
 .banner_right input {
-  padding: 12px 20px;
-  border: 1px solid #ececec;
-  border-radius: 4px;
-  color: #181818;
-  background-color: #ffffff;
-  font-size: 16px;
-  line-height: 24px;
+	padding: 12px 20px;
+	border: 1px solid #ececec;
+	border-radius: 4px;
+	color: #181818;
+	background-color: #ffffff;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 @media screen and (max-width: 575px) {
-  .banner_right button {
-    width: 100%;
-  }
+	.banner_right button {
+		width: 100%;
+	}
 }
 
 .feature_posts .main_head {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .feature_posts .feature_headline {
-  height: 2px;
-  background-color: #000;
+	height: 2px;
+	background-color: #000;
 }
 
 .feature_posts .blog_heading {
-  font-weight: 700;
-  position: relative;
+	font-weight: 700;
+	position: relative;
 }
 
 .feature_posts .blog_heading::before {
-  content: "";
-  background: #000;
-  position: absolute;
-  z-index: -1;
-  height: 0%;
-  width: 92%;
-  bottom: 0%;
-  left: 0%;
+	content: "";
+	background: #000;
+	position: absolute;
+	z-index: -1;
+	height: 0%;
+	width: 92%;
+	bottom: 0%;
+	left: 0%;
 }
 
 .feature_posts .date {
-  color: #687385;
-  font-size: 1.2rem;
-  font-weight: 300;
+	color: #687385;
+	font-size: 1.2rem;
+	font-weight: 300;
 }
 
 .feature_posts small {
-  color: #687385;
+	color: #687385;
 }
 
 .featuredCard:hover .blog_heading::before {
-  height: 10%;
+	height: 10%;
 }
 
 .newsletterContainer {
-  padding: 6rem;
-  border-radius: 4px;
-  background-color: #f6f6f6;
+	padding: 6rem;
+	border-radius: 4px;
+	background-color: #f6f6f6;
 }
 
 .newsletterContainer .innerContainer {
-  max-width: 540px;
-  margin: auto;
-  z-index: 1;
+	max-width: 540px;
+	margin: auto;
+	z-index: 1;
 }
 
 .newsletterContainer .innerContainer h3 {
-  font-size: 1.8rem;
-  line-height: 32px;
+	font-size: 1.8rem;
+	line-height: 32px;
 }
 
 .newsletterContainer input {
-  padding: 12px 20px;
-  border: 1px solid #ececec;
-  border-radius: 4px;
-  color: #181818;
-  background-color: #ffffff;
-  font-size: 1rem;
-  line-height: 24px;
+	padding: 12px 20px;
+	border: 1px solid #ececec;
+	border-radius: 4px;
+	color: #181818;
+	background-color: #ffffff;
+	font-size: 1rem;
+	line-height: 24px;
 }
 
 @media screen and (max-width: 575px) {
-  .newsletterContainer button {
-    width: 100%;
-  }
+	.newsletterContainer button {
+		width: 100%;
+	}
 }
 
 .newsletterContainer .c-subscribe__icon {
-  position: absolute;
-  top: -141px;
-  right: -121px;
+	position: absolute;
+	top: -141px;
+	right: -121px;
 }
 
 .newsletterContainer .c-subscribe__icon svg {
-  fill: #fff;
+	fill: #fff;
 }
 
 @media screen and (max-width: 575px) {
-  .newsletterContainer {
-    padding: 2.2rem;
-  }
+	.newsletterContainer {
+		padding: 2.2rem;
+	}
 }
 
 .footer_container ul {
-  margin-bottom: 0.3rem;
+	margin-bottom: 0.3rem;
 }
 
 .footer_container a {
-  font-size: 0.8rem;
-  color: #687385;
+	font-size: 0.8rem;
+	color: #687385;
 }
 
 .footer_container a:hover {
-  color: #c5322e;
+	color: #c5322e;
 }
 
 .footer_container .footerLine {
-  font-size: 0.8rem;
-  color: #687385;
+	font-size: 0.8rem;
+	color: #687385;
 }
 
 .aboutDetail P {
-  font-size: 1.2rem;
-  line-height: 28px;
+	font-size: 1.2rem;
+	line-height: 28px;
 }
 
 .contactForm input[type="text"],
 .contactForm input[type="email"],
 .contactForm textarea {
-  padding: 12px 20px;
-  border: 1px solid #ececec;
-  border-radius: 4px;
-  color: #181818;
-  background-color: #ffffff;
-  font-size: 1rem;
-  line-height: 24px;
+	padding: 12px 20px;
+	border: 1px solid #ececec;
+	border-radius: 4px;
+	color: #181818;
+	background-color: #ffffff;
+	font-size: 1rem;
+	line-height: 24px;
 }
 /*# sourceMappingURL=style.css.map */
