@@ -312,4 +312,16 @@ img {
   font-size: 1.2rem;
   line-height: 28px;
 }
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+  padding: 12px 20px;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  color: #181818;
+  background-color: #ffffff;
+  font-size: 1rem;
+  line-height: 24px;
+}
 /*# sourceMappingURL=style.css.map */
