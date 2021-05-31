@@ -140,6 +140,11 @@ img {
 		}
 	}
 }
+@media screen and (max-width: 575px) {
+	.header_container {
+		padding: 1.4rem 0rem 1rem 0rem;
+	}
+}
 // HEADER CONTAINER END
 
 // HOME BANNER CONTAINER START
@@ -226,6 +231,7 @@ img {
 	.innerContainer {
 		max-width: 540px;
 		margin: auto;
+		z-index: 1;
 
 		h3 {
 			font-size: 1.8rem;
@@ -243,6 +249,12 @@ img {
 		line-height: 24px;
 	}
 
+	@media screen and (max-width: 575px) {
+		button {
+			width: 100%;
+		}
+	}
+
 	.c-subscribe__icon {
 		position: absolute;
 		top: -141px;
@@ -251,6 +263,12 @@ img {
 
 	.c-subscribe__icon svg {
 		fill: #fff;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.newsletterContainer {
+		padding: 2.2rem;
 	}
 }
 // NEWSLETTER CONTAINER END

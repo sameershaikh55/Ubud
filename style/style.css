@@ -142,6 +142,12 @@ img {
   margin-right: 0rem;
 }
 
+@media screen and (max-width: 575px) {
+  .header_container {
+    padding: 1.4rem 0rem 1rem 0rem;
+  }
+}
+
 .banner_right a {
   color: #000 !important;
   border-bottom: 1px solid #000;
@@ -220,6 +226,7 @@ img {
 .newsletterContainer .innerContainer {
   max-width: 540px;
   margin: auto;
+  z-index: 1;
 }
 
 .newsletterContainer .innerContainer h3 {
@@ -237,6 +244,12 @@ img {
   line-height: 24px;
 }
 
+@media screen and (max-width: 575px) {
+  .newsletterContainer button {
+    width: 100%;
+  }
+}
+
 .newsletterContainer .c-subscribe__icon {
   position: absolute;
   top: -141px;
@@ -245,6 +258,12 @@ img {
 
 .newsletterContainer .c-subscribe__icon svg {
   fill: #fff;
+}
+
+@media screen and (max-width: 575px) {
+  .newsletterContainer {
+    padding: 2.2rem;
+  }
 }
 
 .footer_container ul {
