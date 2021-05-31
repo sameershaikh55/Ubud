@@ -21,27 +21,27 @@ html {
 }
 @media screen and (max-width: 668px) {
 	html {
-		font-size: 95%;
+		font-size: 96%;
 	}
 }
 @media screen and (max-width: 575px) {
 	html {
-		font-size: 92%;
+		font-size: 94%;
 	}
 }
 @media screen and (max-width: 475px) {
 	html {
-		font-size: 88%;
+		font-size: 92%;
 	}
 }
 @media screen and (max-width: 380px) {
 	html {
-		font-size: 86%;
+		font-size: 90%;
 	}
 }
 @media screen and (max-width: 280px) {
 	html {
-		font-size: 84%;
+		font-size: 88%;
 	}
 }
 
@@ -60,6 +60,7 @@ img {
 	display: block;
 	max-width: 100%;
 	font-style: italic;
+	width: 100%;
 }
 
 .themeBtn {
@@ -119,6 +120,7 @@ img {
 	ul {
 		li {
 			margin: 0rem 0.8rem;
+			position: relative;
 			font-weight: 500;
 
 			a {
@@ -129,8 +131,19 @@ img {
 				color: $themeColor;
 			}
 
-			&:hover {
-				border-bottom: 2px solid #000;
+			&::before {
+				content: "";
+				background: #000;
+				position: absolute;
+				z-index: -1;
+				height: 0%;
+				width: 100%;
+				bottom: 0%;
+				left: 0%;
+			}
+
+			&:hover::before {
+				height: 10%;
 			}
 		}
 	}
@@ -138,6 +151,17 @@ img {
 		li:last-child {
 			margin-right: 0rem;
 		}
+	}
+
+	li.activeNav::before {
+		content: "";
+		background: #000;
+		position: absolute;
+		z-index: -1;
+		height: 10%;
+		width: 100%;
+		bottom: 0%;
+		left: 0%;
 	}
 }
 @media screen and (max-width: 575px) {
@@ -294,3 +318,12 @@ img {
 	}
 }
 // FOOTER CONTAINER END
+
+// ABOUT DETAILS CONTAINER START
+.aboutDetail {
+	P {
+		font-size: 1.2rem;
+		line-height: 28px;
+	}
+}
+// ABOUT DETAILS CONTAINER END
