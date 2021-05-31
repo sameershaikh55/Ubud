@@ -45,6 +45,14 @@ html {
 	}
 }
 
+.hrTag {
+	padding-left: 1rem !important;
+	padding-right: 0rem !important;
+	hr {
+		background-color: #687385;
+	}
+}
+
 .page_container {
 	max-width: 1150px;
 	margin-left: auto;
