@@ -333,4 +333,175 @@ img {
   font-size: 1rem;
   line-height: 24px;
 }
+
+.singleBlog .blogHead {
+  font-weight: 1000;
+}
+
+.singleBlog p {
+  font-size: 1.1rem;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+}
+
+@media (min-width: 40em) {
+  .singleBlog .c-post-header__meta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.singleBlog .c-post-header__meta {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+}
+
+.singleBlog .c-post-header__author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.singleBlog .c-post-header__author_media {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  margin-right: 8px;
+  background-color: #f6f6f6;
+}
+
+.singleBlog .c-post-header__author_image {
+  width: 32px;
+  height: 32px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.singleBlog .c-post-header__date {
+  color: #687385;
+}
+
+.singleBlog .c-post-header__reading-time {
+  color: #687385;
+}
+
+.singleBlog .leftBorder {
+  border-left: 5px solid #000;
+}
+
+.singleBlog .listSingleBlog {
+  line-height: 26px;
+}
+
+.singleBlog .listSingleBlog a {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.singleBlog .listSingleBlog a:hover {
+  color: #c5322e;
+}
+
+.singleBlog a.kg-bookmark-container {
+  min-height: 144px;
+  color: #181818;
+  background-color: #f6f6f6;
+  border-bottom: 0;
+}
+
+.singleBlog .kg-bookmark-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  padding: 24px;
+}
+
+.singleBlog .kg-bookmark-title {
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.singleBlog .kg-bookmark-description {
+  color: #000;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+  max-height: 48px;
+  overflow-y: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.singleBlog .kg-bookmark-metadata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 8px;
+  color: #000;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.singleBlog .kg-bookmark-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.singleBlog .kg-bookmark-author {
+  font-weight: 500;
+}
+
+.singleBlog .kg-bookmark-publisher {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 240px;
+}
+
+.singleBlog .kg-bookmark-thumbnail {
+  position: relative;
+  min-width: 33%;
+  max-height: 100%;
+}
+
+.singleBlog .kg-bookmark-thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
