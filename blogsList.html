@@ -27,6 +27,71 @@
 		<title>Blogs</title>
 	</head>
 	<body>
+		<!-- ==== SIDEBAR START ==== -->
+		<div id="sideBarId" class="sideBar">
+			<div class="d-flex flex-column">
+				<div id="closeSidebar" onclick="closeSidebar()" class="align-self-end">
+					<i class="fas fa-times h1"></i>
+				</div>
+				<ul class="list-unstyled ps-4">
+					<li onclick="closeSidebar()" class="mt-3">
+						<a class="text-decoration-none text-dark fw-bold" href="about.html">
+							About
+						</a>
+					</li>
+					<li onclick="closeSidebar()" class="mt-3">
+						<a
+							class="text-decoration-none text-dark fw-bold"
+							href="contact.html"
+						>
+							Contact
+						</a>
+					</li>
+					<li onclick="closeSidebar()" class="mt-3">
+						<a
+							class="text-decoration-none text-dark fw-bold"
+							href="blogsList.html"
+						>
+							Blog
+						</a>
+					</li>
+					<li onclick="closeSidebar()" class="mt-3">
+						<a class="text-decoration-none text-dark fw-bold" href="#">
+							Archive
+						</a>
+					</li>
+					<li onclick="closeSidebar()" class="mt-3">
+						<a class="text-decoration-none text-dark fw-bold" href="#">
+							Log in
+						</a>
+					</li>
+					<li onclick="closeSidebar()" class="mt-3">
+						<a class="themeText text-decoration-none fw-bold" href="#">
+							Membership
+						</a>
+					</li>
+				</ul>
+				<ul class="d-inline-flex list-unstyled icons ps-4">
+					<li onclick="closeSidebar()">
+						<a class="h5" target="_blank" href="https://www.instagram.com/">
+							<i class="fab fa-instagram text-dark h3"></i>
+						</a>
+					</li>
+					<li onclick="closeSidebar()">
+						<a class="h5 mx-3" target="_blank" href="http://facebook.com/">
+							<i class="fab fa-twitter text-dark h3"></i>
+						</a>
+					</li>
+					<li onclick="closeSidebar()">
+						<a class="h5" target="_blank" href="https://twitter.com/">
+							<i class="fab fa-facebook-f text-dark h3"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- ==== SIDEBAR END ==== -->
+
 		<div class="page_container">
 			<div class="container-fluid">
 				<!-- =================== HEADER CONTAINER START ================== -->
@@ -37,6 +102,9 @@
 								<a class="text-decoration-none text-dark" href="index.html">
 									<h5>Ubud</h5>
 								</a>
+							</div>
+							<div id="hambergerBtn" class="d-block d-md-none">
+								<i class="fas fa-bars h2"></i>
 							</div>
 							<div class="d-none d-lg-flex align-content-center">
 								<ul class="d-inline-flex list-unstyled">
@@ -361,5 +429,7 @@
 			</footer>
 			<!-- =================== FOOTER SECTION END ================== -->
 		</div>
+
+		<script src="script.js"></script>
 	</body>
 </html>
