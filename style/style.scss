@@ -622,6 +622,8 @@ img {
 	display: block;
 	overflow-y: hidden;
 	overflow-x: hidden;
+}
+.boxWrapper {
 	white-space: nowrap;
 }
 .scroll-img-list {
@@ -631,10 +633,6 @@ img {
 	background-color: #fff;
 	border-radius: 6px;
 	border: 1px solid #cecece;
-
-	&:hover {
-		transform: translateY(-10px);
-	}
 
 	.imageSection {
 		height: 100px;
@@ -650,15 +648,15 @@ img {
 	}
 
 	.paraContainer {
-		position: absolute;
-		width: 50%;
-
-		p {
-			height: 100%;
-			font-size: 1rem;
-			color: #6d6d6d;
-		}
+		white-space: normal;
 	}
+
+	// 	p {
+	// 		height: 100%;
+	// 		font-size: 1rem;
+	// 		color: #6d6d6d;
+	// 	}
+	// }
 }
 
 .sliderBtnLeft,

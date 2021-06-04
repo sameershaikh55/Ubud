@@ -597,6 +597,9 @@ img {
   display: block;
   overflow-y: hidden;
   overflow-x: hidden;
+}
+
+.boxWrapper {
   white-space: nowrap;
 }
 
@@ -607,11 +610,6 @@ img {
   background-color: #fff;
   border-radius: 6px;
   border: 1px solid #cecece;
-}
-
-.scroll-img-list:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
 }
 
 .scroll-img-list .imageSection {
@@ -629,14 +627,7 @@ img {
 }
 
 .scroll-img-list .paraContainer {
-  position: absolute;
-  width: 50%;
-}
-
-.scroll-img-list .paraContainer p {
-  height: 100%;
-  font-size: 1rem;
-  color: #6d6d6d;
+  white-space: normal;
 }
 
 .sliderBtnLeft,
